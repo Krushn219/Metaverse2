@@ -10,7 +10,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
     className="flex md:flex-row flex-col gap-4"
   >
     <img
-      src={`${process.env.NEXT_PUBLIC_FAVICON}${imgUrl}`}
+      src={imgUrl}
       alt="planet-01"
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
     />
