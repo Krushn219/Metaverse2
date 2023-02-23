@@ -14,7 +14,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     onClick={() => handleClick(id)}
   >
     <img
-      src={`${process.env.NEXT_PUBLIC_FAVICON}${imgUrl}`}
+      src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px]"
     />
