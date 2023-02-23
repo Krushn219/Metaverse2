@@ -1,12 +1,12 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: {`${process.env.NEXT_PUBLIC_FAVICON}/planet-01.png`},
     title: 'The Hogwarts',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: `${process.env.NEXT_PUBLIC_FAVICON}/planet-02.png`,
     title: 'The Upside Down',
   },
   {
