@@ -6,7 +6,7 @@ const nextConfig = {
   },
   images: {
     loader: "imgix",
-    path: "./",
+    path: "",
   },
   basePath: "/Metaverse2",
   assetPrefix: "/Metaverse2",
